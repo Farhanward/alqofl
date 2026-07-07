@@ -1,0 +1,27 @@
+{
+  "input": "C:\\Projects\\kashif\\data\\external\\nvd_cves_12000.jsonl",
+  "processed": 12000,
+  "valid_ok": 12000,
+  "valid_fail": 0,
+  "tamper_checks": 705,
+  "tamper_detected": 705,
+  "errors": 0,
+  "accuracy": 1.0,
+  "tamper_detection_rate": 1.0,
+  "latency_ms": {
+    "mean": 0.8741382333779862,
+    "p50": 0.8642000029794872,
+    "p95": 0.9452999802306294,
+    "p99": 1.0101000079885125,
+    "max": 2.904199995100498
+  },
+  "memory_mb": {
+    "current": 0.427061,
+    "peak": 0.431829
+  },
+  "elapsed_seconds": 10.535651299986057,
+  "collapse_check": {
+    "passed": true,
+    "criteria": "errors == 0 and valid_fail == 0 and tamper_detected == tamper_checks"
+  }
+}

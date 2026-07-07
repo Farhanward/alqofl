@@ -1,0 +1,14 @@
+{
+  "app_id": "app.alqofl.demo",
+  "customer": "customer@example.com",
+  "device_parts": [
+    "cpu-serial-demo",
+    "disk-serial-demo",
+    "machine-guid-demo"
+  ],
+  "features": [
+    "basic",
+    "pro"
+  ],
+  "duration_days": 30
+}
